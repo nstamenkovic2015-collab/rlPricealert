@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pricealert",
+  "version": "1.0.0",
+  "name": "Price Alert",
+  "description": "Watches chat for auction/shop listings of items you choose and alerts you when one is listed at or under your max price.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pricealert/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.pricealert.PriceAlertClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
